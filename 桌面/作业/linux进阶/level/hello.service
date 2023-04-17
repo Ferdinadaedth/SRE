@@ -1,0 +1,11 @@
+[Unit]
+Description=hello world
+After=network-online.target
+Wants=network-online.target 
+
+[Service]
+ExecStart=/home/ferdina/hello.sh
+ExecStop=echo "hello world is running"
+
+[Install]
+
