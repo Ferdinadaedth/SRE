@@ -1,4 +1,4 @@
-## k8s 集群配置单点redis数据库+NFS持久化 ##
+## k8s 集群部署单点redis数据库+NFS持久化 ##
 
 - 在k8s集群中的每个节点安装nfs-utils
 
